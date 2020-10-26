@@ -5,6 +5,7 @@ const CommentDetail = (props) => {
     console.log("Properties ", props)
 
     return (
+
         <div className="comment">
             <a href="/" className="avatar">
                 <img alt="avatar" src={props.avatarSrc} />

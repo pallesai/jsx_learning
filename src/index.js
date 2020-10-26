@@ -1,8 +1,10 @@
 // Import the react and react dom
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CommentDetail from './CommentDetail'
 import faker from 'faker'
+import CommentDetail from './CommentDetail'
+import ApprovalCard from "./ApprovalCard";
+
 
 
 // Create a react component
@@ -29,6 +31,8 @@ const App = () => {
                 commentText="Really loved this post"
                 avatarSrc={faker.image.avatar()}
             />
+
+            <ApprovalCard />
         </div>
     );
 };
